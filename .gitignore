@@ -1,0 +1,93 @@
+# WordPress Core
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration Files
+/app/public/wp-admin/
+/app/public/wp-includes/
+/app/public/wp-*.php
+/app/public/index.php
+/app/public/license.txt
+/app/public/readme.html
+/app/public/xmlrpc.php
+
+# Configuration Files
+/app/public/wp-config.php
+/app/public/.htaccess
+
+# Sample/Example Files
+/app/public/wp-config-sample.php
+
+# Log Files
+logs/
+/app/public/wp-content/debug.log
+*.log
+
+# htaccess
+.htaccess
+
+# All uploaded files should be ignored
+/app/public/wp-content/uploads/
+
+# WP-CLI
+wp-cli.local.yml
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer
+/vendor/
+composer.lock
+
+# Cache
+/app/public/wp-content/cache/
+/app/public/wp-content/uploads/cache/
+
+# Backup files
+*.sql
+*.sql.gz
+*.sql.bz2
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# WordPress specific
+sitemap.xml
+sitemap.xml.gz
+
+# Local by Flywheel specific
+local-xdebuginfo.php
+
+# WP Rocket Cache
+/app/public/wp-content/cache/wp-rocket/
+/app/public/wp-content/advanced-cache.php
+
+# W3 Total Cache
+/app/public/wp-content/w3tc-config/
+/app/public/wp-content/cache/
+
